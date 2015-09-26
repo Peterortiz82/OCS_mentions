@@ -23,5 +23,13 @@ task :orlando_mls => :environment do
   Bot.orlando_mls
 end
 
+task :ocs_name => :environment do
+  Bot.ocs_name
+end
+
+task :find_user => :environment do
+  Bot.find_user
+end
+
 
 
