@@ -10,7 +10,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'twitter', '~> 5.15.0'
 gem 'figaro', '~> 1.1.1'
 gem 'randumb', '~> 0.5.0'
-gem 'whenever', '~> 0.9.4', :require => false
 gem 'pry', '~> 0.10.2'
 gem 'pg'
 gem 'sdoc', '~> 0.4.0', group: :doc
