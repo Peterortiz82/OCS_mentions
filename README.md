@@ -1,3 +1,3 @@
-# OCS_mentions
+# OCSmentions
 Orlando City Soccer Twitter Bot that retweets all orlando City Soccer mentions 
-check it out here [@OCSmentions](https://twitter.com/OCSmentions)
+check it out [@OCSmentions](https://twitter.com/OCSmentions)
