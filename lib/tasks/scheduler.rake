@@ -3,10 +3,6 @@ task :ocs_mentions => :environment do
   Bot.ocs_mentions
 end
 
-task :orlando_soccer => :environment do
-  Bot.orlando_soccer
-end
-
 task :make_it_count => :environment do
   Bot.make_it_count
 end

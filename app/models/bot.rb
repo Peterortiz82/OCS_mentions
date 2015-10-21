@@ -8,14 +8,6 @@ class Bot < ActiveRecord::Base
     end
   end
 
-  def self.orlando_soccer
-    CLIENT.search("Orlando soccer", result_type: "recent").take(1).each do |t|
-      User.create(name: t.user.screen_name, tweet_id: t.id.to_s)
-      CLIENT.retweet(t)
-      CLIENT.favorite(t)
-    end
-  end
-
   def self.make_it_count
     CLIENT.search("Orlando #makeItCount", result_type: "recent").take(1).each do |t|
       User.create(name: t.user.screen_name, tweet_id: t.id.to_s)
@@ -41,7 +33,7 @@ class Bot < ActiveRecord::Base
   end
 
   def self.orlando_mls
-    CLIENT.search("Orlando MLS", result_type: "recent").take(1).each do |t|
+    CLIENT.search("Orlando City MLS", result_type: "recent").take(1).each do |t|
       User.create(name: t.user.screen_name, tweet_id: t.id.to_s)
       CLIENT.retweet(t)
       CLIENT.favorite(t)
