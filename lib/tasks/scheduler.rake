@@ -11,9 +11,9 @@ task :orlando_city_soccer => :environment do
   Bot.orlando_city_soccer
 end
 
-task :orlando_city_goal => :environment do
-  Bot.orlando_city_goal
-end
+# task :orlando_city_goal => :environment do
+#   Bot.orlando_city_goal
+# end
 
 task :orlando_mls => :environment do
   Bot.orlando_mls
